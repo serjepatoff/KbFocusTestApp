@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA035E8E1C806B7800F0F6FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA035E8D1C806B7800F0F6FE /* main.m */; };
+		FA035E911C806B7800F0F6FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA035E901C806B7800F0F6FE /* AppDelegate.m */; };
+		FA035E991C806B7800F0F6FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA035E981C806B7800F0F6FE /* Assets.xcassets */; };
+		FA035E9C1C806B7800F0F6FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA035E9A1C806B7800F0F6FE /* LaunchScreen.storyboard */; };
+		FA035EA51C806BD200F0F6FE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA035EA31C806BD200F0F6FE /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA035E891C806B7800F0F6FE /* KbFocusTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KbFocusTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA035E8D1C806B7800F0F6FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA035E8F1C806B7800F0F6FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA035E901C806B7800F0F6FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA035E981C806B7800F0F6FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA035E9B1C806B7800F0F6FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA035E9D1C806B7800F0F6FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA035EA31C806BD200F0F6FE /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		FA035EA41C806BD200F0F6FE /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA035E861C806B7800F0F6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA035E801C806B7800F0F6FE = {
+			isa = PBXGroup;
+			children = (
+				FA035E8B1C806B7800F0F6FE /* KbFocusTest */,
+				FA035E8A1C806B7800F0F6FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA035E8A1C806B7800F0F6FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA035E891C806B7800F0F6FE /* KbFocusTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA035E8B1C806B7800F0F6FE /* KbFocusTest */ = {
+			isa = PBXGroup;
+			children = (
+				FA035E8D1C806B7800F0F6FE /* main.m */,
+				FA035E8F1C806B7800F0F6FE /* AppDelegate.h */,
+				FA035E901C806B7800F0F6FE /* AppDelegate.m */,
+				FA035EA31C806BD200F0F6FE /* MainViewController.m */,
+				FA035EA41C806BD200F0F6FE /* MainViewController.h */,
+				FA035E981C806B7800F0F6FE /* Assets.xcassets */,
+				FA035E9A1C806B7800F0F6FE /* LaunchScreen.storyboard */,
+				FA035E9D1C806B7800F0F6FE /* Info.plist */,
+			);
+			path = KbFocusTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA035E881C806B7800F0F6FE /* KbFocusTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA035EA01C806B7800F0F6FE /* Build configuration list for PBXNativeTarget "KbFocusTest" */;
+			buildPhases = (
+				FA035E851C806B7800F0F6FE /* Sources */,
+				FA035E861C806B7800F0F6FE /* Frameworks */,
+				FA035E871C806B7800F0F6FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KbFocusTest;
+			productName = KbFocusTest;
+			productReference = FA035E891C806B7800F0F6FE /* KbFocusTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA035E811C806B7800F0F6FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = readdle;
+				TargetAttributes = {
+					FA035E881C806B7800F0F6FE = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = FA035E841C806B7800F0F6FE /* Build configuration list for PBXProject "KbFocusTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA035E801C806B7800F0F6FE;
+			productRefGroup = FA035E8A1C806B7800F0F6FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA035E881C806B7800F0F6FE /* KbFocusTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA035E871C806B7800F0F6FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA035E9C1C806B7800F0F6FE /* LaunchScreen.storyboard in Resources */,
+				FA035E991C806B7800F0F6FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA035E851C806B7800F0F6FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA035E911C806B7800F0F6FE /* AppDelegate.m in Sources */,
+				FA035EA51C806BD200F0F6FE /* MainViewController.m in Sources */,
+				FA035E8E1C806B7800F0F6FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA035E9A1C806B7800F0F6FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA035E9B1C806B7800F0F6FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA035E9E1C806B7800F0F6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		FA035E9F1C806B7800F0F6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA035EA11C806B7800F0F6FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KbFocusTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.readdle.KbFocusTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA035EA21C806B7800F0F6FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KbFocusTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.readdle.KbFocusTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA035E841C806B7800F0F6FE /* Build configuration list for PBXProject "KbFocusTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA035E9E1C806B7800F0F6FE /* Debug */,
+				FA035E9F1C806B7800F0F6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA035EA01C806B7800F0F6FE /* Build configuration list for PBXNativeTarget "KbFocusTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA035EA11C806B7800F0F6FE /* Debug */,
+				FA035EA21C806B7800F0F6FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA035E811C806B7800F0F6FE /* Project object */;
+}
