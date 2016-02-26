@@ -24,6 +24,3 @@ iOS 9.2 (13C75)
 
 ##Configuration
 iPad Air 2
-
-##Attachments
-'KbFocusTest.zip' was successfully uploaded.
